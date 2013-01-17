@@ -1,0 +1,10 @@
+.idea/*
+_site/*
+*~
+*.iml
+build.sh
+target
+examples/helloAndroid/gen/
+examples/integrationTest/gen/
+tmp
+out

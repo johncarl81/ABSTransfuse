@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest t:tag="+" xmlns:t="http://androidtransfuse.org" xmlns:android="http://schemas.android.com/apk/res/android" package="org.androidtransfuse.examples" android:versionCode="1" android:versionName="1.0.0">
+    <application t:tag="+,i,l,n" android:icon="@drawable/icon" android:label="@string/application_name" android:name=".ABSTransfuseApplicationApplication">
+        <activity t:tag="+,n" android:name=".ABSTransfuseActivity">
+            <intent-filter t:tag="+">
+                <action t:tag="+,n" android:name="android.intent.action.MAIN"/>
+                <category t:tag="+,n" android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-sdk android:minSdkVersion="4" android:targetSdkVersion="11"/>
+</manifest>
